@@ -19,7 +19,7 @@ It can convert Marp / Marpit Markdown files into static HTML / CSS, PDF, PowerPo
 
 ### npx
 
-[npx](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) is the best tool when you want to convert Markdown right now. Just run below if you are installed [Node.js](https://nodejs.org/):
+[npx](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) is the best tool when you want to convert Markdown right now. Just run below if you have installed [Node.js](https://nodejs.org/):
 
 ```bash
 # Convert slide deck into HTML
@@ -59,7 +59,7 @@ Do you hate to install Node and Chrome locally? We have [an official Docker imag
 
 ### Local installation
 
-We recommend to install Marp CLI into your Node project. You may control the CLI (and engine) version exactly.
+We recommend installing Marp CLI into your Node project. You may control the CLI (and engine) version exactly.
 
 ```bash
 npm install --save-dev @marp-team/marp-cli
